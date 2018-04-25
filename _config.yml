@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Benjamin Chu"
   avatar           : "IMG_2038.JPG"
-  bio              : "I am a Ph.D student in the biomathematics program at UCLA. My advisors are Ken Lange and Janet Sinsheimer"
+  bio              : "I am a Ph.D student in the biomathematics program at UCLA."
   location         : 
   employer         :
   googlescholar    : 
@@ -170,16 +170,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
