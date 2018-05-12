@@ -8,11 +8,11 @@ Hi everyone, two weeks no see.
 
 The past 2 weeks have been the community bonding period of google summer of codes. I have made several updates in the JSOC-standup channel on slack, asked some questions on julia discourse, and wrote some code for my Ph.D advisor. My coding was not directly related to my project, but it helped me understand the codebase of [MendelBase](https://openmendel.github.io/MendelBase.jl/) and [SnpArrays](https://openmendel.github.io/SnpArrays.jl/latest/) much better, so yayyyyy.
 
-Other than that, I probably spent a disproportionate amount of time on my current course [convex optimization](http://www.seas.ucla.edu/~vandenbe/ee236b/ee236b.html). In this respect, I thought I'd share one of the problems I did on my previous homework (hw5, which is 3.11.d in the textbook).
+Other than that, I probably spent a disproportionate amount of time on my current course [convex optimization](http://www.seas.ucla.edu/~vandenbe/ee236b/ee236b.html). In this respect, I thought I'd share one of the problems I did on my previous homework (hw5, which is 3.11.d in the textbook). It involves a good amount of "tricks" such as cyclic permutation of the trace operator, the Schur complement property, switching beteen vector and scalar forms of spectral decompositions, and an epigraph conversion:
 
 **Problem:**
 
-Let $x \in \mathbb{R}^n$ and $F(x) = F_0 + x_1F_1 + ... + x_nF_n$ with $F_i$ being symmertic $m \times m$ matrices. The domain of $f$ in each subproblem is $dom f = \{x \in \mathbb{R}^n \ | \ F(x) \text{ is positive definite}\}$. Formulate the following minimization problem as a *semi-definite program* (that is, a minimization problem with linear objective function and linear matrix inequalities):
+Let $x \in \mathbb{R}^n$ and $F(x) = F_0 + x_1F_1 + ... + x_nF_n$ with $F_i$ being symmertic $m \times m$ matrices. The domain of $f$ in each subproblem is $dom f = \{x \in \mathbb{R}^n \ | \ F(x) \text{ is positive definite}\}$. Formulate the following minimization problem as a *semi-definite program* (that is, a minimization problem with linear objective function and constraints in the form of linear matrix inequalities):
 
 \begin{align*}
 		&\text{minimize} \ \quad f(x) = E(c^TF(x)^{-1}c)
@@ -61,4 +61,4 @@ Thus we have
 		\end{bmatrix}
 	\end{cases} 
 \end{align*}
-which is of the linear matrix inequality form we desire. Note the second to last if-and-only-if is by the property of Schur complement. This completes the proof. 
+which is of the linear matrix inequality constraints we desire. Note the third if-and-only-if is by the epigraph test ($f(x)$ is a convex function $\iff$ the set $\{(x,t) \ | \ f(x) \leq t\}$ is a convex set), and the second to last if-and-only-if is by the property of Schur complement. This completes the proof. 

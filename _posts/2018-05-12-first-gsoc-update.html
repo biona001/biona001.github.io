@@ -124,9 +124,9 @@ $(document).ready(function () {
 
 <p>Hi everyone, two weeks no see.</p>
 <p>The past 2 weeks have been the community bonding period of google summer of codes. I have made several updates in the JSOC-standup channel on slack, asked some questions on julia discourse, and wrote some code for my Ph.D advisor. My coding was not directly related to my project, but it helped me understand the codebase of <a href="https://openmendel.github.io/MendelBase.jl/">MendelBase</a> and <a href="https://openmendel.github.io/SnpArrays.jl/latest/">SnpArrays</a> much better, so yayyyyy.</p>
-<p>Other than that, I probably spent a disproportionate amount of time on my current course <a href="http://www.seas.ucla.edu/~vandenbe/ee236b/ee236b.html">convex optimization</a>. In this respect, I thought I’d share one of the problems I did on my previous homework (hw5, which is 3.11.d in the textbook).</p>
+<p>Other than that, I probably spent a disproportionate amount of time on my current course <a href="http://www.seas.ucla.edu/~vandenbe/ee236b/ee236b.html">convex optimization</a>. In this respect, I thought I’d share one of the problems I did on my previous homework (hw5, which is 3.11.d in the textbook). It involves a good amount of “tricks” such as cyclic permutation of the trace operator, the Schur complement property, switching beteen vector and scalar forms of spectral decompositions, and an epigraph conversion:</p>
 <p><strong>Problem:</strong></p>
-<p>Let <span class="math inline">\(x \in \mathbb{R}^n\)</span> and <span class="math inline">\(F(x) = F_0 + x_1F_1 + ... + x_nF_n\)</span> with <span class="math inline">\(F_i\)</span> being symmertic <span class="math inline">\(m \times m\)</span> matrices. The domain of <span class="math inline">\(f\)</span> in each subproblem is <span class="math inline">\(dom f = \{x \in \mathbb{R}^n \ | \ F(x) \text{ is positive definite}\}\)</span>. Formulate the following minimization problem as a <em>semi-definite program</em> (that is, a minimization problem with linear objective function and linear matrix inequalities):</p>
+<p>Let <span class="math inline">\(x \in \mathbb{R}^n\)</span> and <span class="math inline">\(F(x) = F_0 + x_1F_1 + ... + x_nF_n\)</span> with <span class="math inline">\(F_i\)</span> being symmertic <span class="math inline">\(m \times m\)</span> matrices. The domain of <span class="math inline">\(f\)</span> in each subproblem is <span class="math inline">\(dom f = \{x \in \mathbb{R}^n \ | \ F(x) \text{ is positive definite}\}\)</span>. Formulate the following minimization problem as a <em>semi-definite program</em> (that is, a minimization problem with linear objective function and constraints in the form of linear matrix inequalities):</p>
 <span class="math display">\[\begin{align*}
         &amp;\text{minimize} \ \quad f(x) = E(c^TF(x)^{-1}c)
 \end{align*}\]</span>
@@ -171,7 +171,7 @@ Thus we have
         \end{bmatrix}
     \end{cases} 
 \end{align*}\]</span>
-<p>which is of the linear matrix inequality form we desire. Note the second to last if-and-only-if is by the property of Schur complement. This completes the proof.</p>
+<p>which is of the linear matrix inequality constraints we desire. Note the third if-and-only-if is by the epigraph test (<span class="math inline">\(f(x)\)</span> is a convex function <span class="math inline">\(\iff\)</span> the set <span class="math inline">\(\{(x,t) \ | \ f(x) \leq t\}\)</span> is a convex set), and the second to last if-and-only-if is by the property of Schur complement. This completes the proof.</p>
 
 
 
