@@ -1,12 +1,8 @@
 ---
-title: "First 2 week update~~"
-author: "benjamin chu"
-date: "5/12/2018"
+title: "First 2 week update"
+date: 2018-05-12
+permalink: /posts/2018/05/first-update
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 Hi everyone, two weeks no see.
 
