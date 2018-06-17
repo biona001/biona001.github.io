@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Benjamin Chu's Personal website"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Benjamin Chu"
 description              : &description "personal description"
@@ -203,6 +203,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _teaching
   # - scope:
   #     path: ""
