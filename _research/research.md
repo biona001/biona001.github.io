@@ -29,7 +29,7 @@ For almost 2 years I worked for Professor [Joseph Distefano III](https://www.cs.
 
 
 <p align="center">
-  <img src="../images/normal30_error16.jpg" alt="Photo" style="width: 400px;"/>
+  <img src="../images/normal30_error16.jpg" alt="Photo" style="width: 500px;"/>
 </p>
 
 ## Computational biology lab at Academia Sinica (2013 - 2016)
@@ -39,5 +39,5 @@ For 3 summers I worked for Professor [Carmay Lim](http://www.ibms.sinica.edu.tw/
 **Short intro:** Metal cofactors often play crucial roles in various enzymatic reactions. Many diseases have an over-expression of such reactions, so the logic goes that if we can prevent these catalytic reactions, we cure the disease. Therefore, we want to design drug molecules that have a high binding affinity for these metal ions. My project focused on the structural optimization of various drug models, particularly those incovling the zinc ion, and also on the computation the binding affinities of these model for a specific zinc site. For instance, the following reaction simulate the interaction of [HDAC](https://en.wikipedia.org/wiki/Histone_deacetylase) with 3 hypothetical drug compounds:
 
 <p align="center">
-  <img src="../images/HHDw-2.png" alt="Photo" style="width: 500px;"/>
+  <img src="../images/HHDw-2.png" alt="Photo" style="width: 700px;"/>
 </p>
