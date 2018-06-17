@@ -3,5 +3,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "CV"
+  - title: "Resume"
     url: /cv/
+
+  - title: "Research"
+    url: /research/
