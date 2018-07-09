@@ -6,9 +6,7 @@ permalink: /posts/2018/06/second-update
 
 First of all, I would like to thank Julia Computing for sponsoring my trip to [Juliacon](http://juliacon.org/2018/) in London! I feel like I don't deserve this, because in some sense, they are paying for my trip before I give them any results. Better really step up my game now and make my project work, so I can get the most out of this experience. 
 
-<p align="center">
-  <img src="../images/juliacon.png" alt="Photo" style="width: 500px;"/> 
-</p>
+![](../images/juliacon.png)
 
 ## Project description & progress
 
