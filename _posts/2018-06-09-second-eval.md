@@ -8,11 +8,9 @@ Hi there.
 
 Several major events and exchange of ideas rolled around the corner. As a consequence, I made one significant change to my original project proposal, briefly summarized below.
 
-\
 
-![](../images/change_plans.jpg)
+![](https://github.com/biona001/biona001.github.io/tree/master/images/change_plans.jpg)
 
-\
 
 1. To keep up with the frontier of big-data genomics, I will be investigating how to stream binary files via *memory-mapping* as my second major deliverable. Douglas Bates very coincidentally initiated [BEDFiles.jl](https://github.com/dmbates/BEDFiles.jl) just a week ago, which became the final straw to push me through with this drastic change of plans. I will possibly be spending all my time before JuliaCon 2018 on this part of the project.\
 \
