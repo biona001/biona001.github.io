@@ -8,7 +8,7 @@ Hi everyone, this is the final (summarizing) blog post for my Google Summer of C
 
 ## Problem Motivation
 
-DNA testing is cheap, effective, and abundant. Anyone can just do it at specialized centers with a modest cost of $\sim 200$ USD. Sometimes this may reveal the genetic basis for some ongoing disease, enabling one to make more informed decisions. Other times, testing discover diseases that have a late-onset age, contributing to personalized medicine. How do these scientist know what DNA base contribute to what disease? We obtain these knowledge from [Genome Wide Association Studies](https://en.wikipedia.org/wiki/Genome-wide_association_study) (GWAS). Analysis of GWAS datasets is what this project is about.  
+DNA testing is cheap, effective, and abundant. Anyone can just do it at specialized centers with a modest cost of $\sim 200$ USD. Sometimes this may reveal the genetic basis for ongoing illnesses, enabling one to make more informed decisions. Other times, testing discover diseases that have a late-onset age, contributing to personalized medicine. How do scientist know what DNA base contribute to what disease? We obtain these knowledge from [Genome Wide Association Studies](https://en.wikipedia.org/wiki/Genome-wide_association_study) (GWAS). Analysis of GWAS datasets is what this project is about.  
 
 #### Problem: traditional (p-value) analysis are not effective
 
@@ -16,13 +16,13 @@ DNA testing is cheap, effective, and abundant. Anyone can just do it at speciali
 
 A typical GWAS result looks like the above graph.
 
-Each colored dot represents a p-value for a *single nucleotide polymorphism* (SNP), and the dotted black lines represents the *threshold* for significance. To draw any conclusion (i.e. to gain any insight after spending millions of dollars), at least 1 SNP must pass that threshold. Due to the problem of multiple testing, the more SNPs tested in a given experiment, the higher this threshold, and hence, this method admit a lot of **false negatives**. Those that don't make the threshold are effectively deemed **not significant**, unless followed up by further studies. Enforcing such a threshold is not good science, because in the real world there is no such "cutoff".
+Each colored dot represents a p-value for a *single nucleotide polymorphism* (SNP), and the dotted black lines represents the *threshold* for significance. The p-value must pass this threshold for scientists to conclude a SNP is affecting the trait under consideration. Due to the problem of multiple testing, the more SNPs tested in a given experiment, the higher this threshold, and hence, this method admit a lot of [false negatives](https://en.wikipedia.org/wiki/False_positives_and_false_negatives). Those that don't make the threshold are effectively deemed **not significant** unless followed up by further studies. Enforcing such a threshold is not good science, because in the real world there is no such "cutoff".
 
-Therefore, we need a **fast** and **effective** way to interpret GWAS results. Unfortunately, these is trade-off between speed and quality of analysis. Since GWAS datasets can be **huge** (> 500,000 people and >8 million SNPs resulting in >100 GB datasets), balancing effective analysis and speed is particularly difficult. 
+Therefore, we want a more **effective** way to interpret GWAS results. Since GWAS datasets can be **huge** (> 500,000 people and >8 million SNPs resulting in >100 GB datasets), this new method must also be extremely scalable. As one may guess, these is trade-off between speed and quality of analysis, and balancing this is quite a challenge algorithmically. 
 
 #### Solution: Replace (single-variate) p-value analysis with iterative hard-thresholding (IHT)
 
-We think the relatively novel algorithm iterative hard-thresholding (IHT) is the most suited for this job. It is one of the most scalable algorithms for subset selection. It has great convergence guarantees, is better than LASSO \& MCP for model selection (i.e. producing good quality models), simple to implement, and has low memory-footprint as desired in modern big-data analysis. We pushed through with this idea and implemented IHT in Julia. In particular, this post summarizes a few extra features that have been added over this summer. 
+We think the relatively novel algorithm iterative hard-thresholding (IHT) is the most suited for this job. It is one of the most scalable algorithms for subset selection, has great convergence guarantees, is better than LASSO \& MCP for model selection (i.e. producing good quality models), simple to implement, and has low memory-footprint as desired in modern big-data analysis. We pushed through with this idea and implemented IHT in Julia. This post summarizes a few extra features that we added over this summer. 
 
 Note: Mathematics of IHT and how it is applied in genetics is explained in [this paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/gepi.22068)
 
@@ -38,7 +38,7 @@ MendelIHT("gwas 1 Control.txt")
 
 #### Preparing Input files
 
-In Open Mendel, all analysis parameters are specified via the `Control.txt` file. An example looks like the following:
+In Open Mendel, all analysis parameters are specified via the `Control.txt` file. An example of a control file looks like the following:
 
 ```
 #
@@ -62,7 +62,7 @@ group_membership = 10_group_gwas1.dat
 5. **max_groups:** Maximum number of predictors per group, specified by user.
 6. **group_membership:** A text file indicating group membership, where there is the same number of lines equal to number of SNPs plus 1 (since the intercept needs a group-membership as well). Each line must be a positive integer. Currently all predictors (and the intercept) must belong to exactly 1 group. 
 
-Example files of these can be found [here.](https://github.com/klkeys/IHT.jl/tree/master/test)
+Example files of each can be found [here.](https://github.com/klkeys/IHT.jl/tree/master/test)
 
 #### Sample output on "gwas 1 data":
 
@@ -103,7 +103,7 @@ In the previous example, we told IHT that a maximum of 4 groups can be selected,
 5. **Max predictors/group:** Maximum number of predictors per group, specified by user.
 6. **DataFrames.DataFrame table:** The selected predictors, the groups they belong, and the estimated cofficient for approximating the solution. The last predictor (10001 in this case) represents the intercept. 
 
-Note interestingly, predictors **are not** selected based on their p-value, although they are correlated. This effect is observed in block 4 (between chromosome 5 and 7) where a purple SNP was selected even though a green SNP had a higher p-value. I find many people asking why is this, so I should clarify: IHT is an algorithm for *multi-variate* analysis. It is completely different from the traditional *single-variate* p-value analysis, and thus, having a slightly higher p-value does not imply the predictor is a better candidate when other predictors have their effects come into play. 
+Note interestingly, predictors **are not** selected based on their p-value, although a higher p-value is correlated with being selected. This effect is observed in block 4 (between chromosome 5 and 7) where a purple SNP was selected even though a green SNP had a higher p-value. I find many people asking why is this, so I should clarify: IHT is an algorithm for *multi-variate* analysis. It is completely different from the traditional *single-variate* p-value analysis, and thus, having a slightly higher p-value does not imply the predictor is a better candidate when other predictors have their effects come into play. 
 
 #### What does grouping mean? why did we do that? 
 
@@ -112,7 +112,7 @@ There is a biological phenomenon called **linkage disequilibrium.** It literally
 1. The individual effect of these SNP on the trait is over-estimated.
 2. Knowing both does not add to existing information, because the presence/absence of one will completley inform us about the other.
 
-By *grouping* these predictors into the same group, and forcing each group to pick only the top $k$ predictors, we keep the 2 undesired effect at a minimum. Since a modern GWAS can contain millions of SNPs, often sparsity is desired on the group level (few number of active groups) as well as on the single predictor level (few predictors per group). We do so by projection onto a double-sparsity set $P_{S_{J, k}}$ where we simultaneously limit the number of active groups $J$ and the number of active predictors per group $k$. 
+By *grouping* these predictors into the same group, and forcing each group to pick only the top $k$ predictors, we can reduce the 2 undesired effect. Since a modern GWAS can contain millions of SNPs, often sparsity is desired on the group level (few number of active groups) as well as on the single predictor level (few predictors per group). We do so by projection onto a double-sparsity set $P_{S_{J, k}}$ where we simultaneously limit the number of active groups $J$ and the number of active predictors per group $k$. 
 
 **tl;dr** Maintaining group structures should increase prediction power.
 
@@ -124,7 +124,7 @@ Previously `IHT.jl` required `PLINK.jl}` and `RegressionTools.jl` to run. These 
 
 #### Advantages:
 
-1. **Other genetic analyses are seconds away.** Since all Open Mendel analyses have the same backend data handling, preparing 1 input file to run IHT, instantly gives you access to 11 more genetics analyses. Lots of common utilities needed in genetics such as simulation, fitting variance component model, and linkage analysis can be done under the same hood. This saves user tremendous time in learning numerous softwares for 1 analysis pipeline.
+1. **Other genetic analyses are seconds away.** Since all Open Mendel analyses have the same backend data handling, preparing 1 input file to run IHT instantly gives you access to 11 more genetics analyses. Lots of common utilities needed in genetics such as simulation, fitting variance component model, and linkage analysis can be done under the same hood. This saves user tremendous time in learning numerous softwares.
 
 2. **Compact storage of large genotype files.** IHT interfaces with `SnpArrays.jl` to perform linear algebra directly on raw genotype data. Therefore, we never have to expand this matrix to a double-precision matrix, reducing the memory footprint by 32 times. 
 
@@ -162,12 +162,13 @@ I talked to many people, and brought home many ideas for improvements. Other tha
 
 $\textbf{Optimization route}$: 
 
-1. Redo matrix normalizing computation using `StandardizeMatrices.jl`, fix memory-leak caused by intercept.
-2. Profile `project_group_sparse` code: first replace `sortperm` with something more efficient, and change the whole function to operate in-place.
-3. Change `b` and `b0` to type `SparseVector`.
-4. Change `X_kb_k` to double precision matrix-vector multiplication.
+1. Redo matrix normalizing computation using `StandardizeMatrices.jl`
+2. Fix memory-leak caused by intercept.
+3. Profile `project_group_sparse` code: first replace `sortperm` with something more efficient, and change the whole function to operate in-place.
+4. Change `b` and `b0` to type `SparseVector`.
+5. Change `X_kb_k` to double precision matrix-vector multiplication.
 
-$\textbf{Multi-thread/GPU/could computing route}$:
+$\textbf{Multi-thread/GPU/cloud computing route}$:
 
 1. Make SnpArray/dense-vector multiplication multi-threaded. 
 2. Look into GPU computing by starting with `GPUArrays.jl`. Enable SnpArray/dense-vector multiplication on the GPU. 
@@ -177,7 +178,7 @@ $\textbf{Multi-thread/GPU/could computing route}$:
 $\textbf{Improve on fundamentals of Julia}$:
 
 1. Figure out how to use `@code_native`, `@code_llvm`, `@code_typed`, `@code_lowered` macros to gain compiler efficiency
-2. How to make custom arrays fast: macros like `@boundscheck` and `Meta.@lower`. Matt Bauman had numerous tricks on how to create a matrix of 1???s and not allocate memory. This allows initialization of constant matrix/vector with no memory, which is good for GPU computing.
+2. How to make custom arrays fast: macros like `@boundscheck` and `Meta.@lower`. Matt Bauman had numerous tricks on how to create a matrix of 1s and not allocate memory. This allows initialization of constant matrix/vector with no memory, which is good for GPU computing.
 3. Use `Revise.jl` to avoid restarting julia and reloading the package upon a change - improving work flow.
 4. Use `Rebugger.jl` to step into code - improve debugging. 
 5. Try `promote()` on SnpArrays and dense vector multiplication
@@ -190,13 +191,15 @@ $\textbf{Closely check what other people have done in Julia}$:
 4. `GSReg.jl` is another subset regression package, which is possibly worth checking out. 
 5. Niccolo antonello and lorenzo stella  are 2 students that implement proximal gradient algorithms in julia. They have packages like `StructuredOptimization.jl`, `ProximalOperators.jl`, `AbstractOperators.jl`, `ProximalAlgorithm.jl`.
 6. `BioJulia` and `EcoJulia` does some neat things.
+7. `BEDFiles.jl` is worth checking out and we can compare it's performance with `SnpArrays.jl`. 
 
 $\textbf{Theoretical route}$:
 
 1. Prove convergence of IHT with a doubly sparse projection.
-2. Prove convergence of IHT when predictors are weighted in some way. 
-3. Understand fast proximal gradient method, in particular Nesterov acceleration.
-4. Begin looking into logistic regression.
+2. Investigate (theoretically and empirically) whether it's possible to change the gradient step to a stochastic gradient step.
+3. Prove convergence of IHT when predictors are weighted in some way. 
+4. Understand fast proximal gradient method, in particular Nesterov acceleration.
+5. Begin looking into logistic regression.
 
 
 
