@@ -1,7 +1,7 @@
 ---
 title: "GSoC Results and Summary"
 author: "benjamin chu"
-date: "8/5/2018"
+date: "8/12/2018"
 output: html_document
 ---
 Hi everyone, this is the final (summarizing) blog post for my Google Summer of Code project.
@@ -166,6 +166,7 @@ $\textbf{Optimizing existing code route}$:
 3. Profile `project_group_sparse` code: first replace `sortperm` with something more efficient, and change the whole function to operate in-place.
 4. Change `b` and `b0` to type `SparseVector`.
 5. Change `X_kb_k` to double precision matrix-vector multiplication.
+6. Include fixed-effects in the model. 
 
 $\textbf{Multithread/GPU/Cloud computing route}$:
 
