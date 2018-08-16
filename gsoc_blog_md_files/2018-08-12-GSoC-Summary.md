@@ -170,6 +170,7 @@ $\textbf{Optimizing existing code route}$:
 4. Change `b` and `b0` to type `SparseVector`.
 5. Change `X_kb_k` to double precision matrix-vector multiplication.
 6. Include fixed-effects in the model. 
+7. Fix code for cross-validation. 
 
 $\textbf{Multithread/GPU/Cloud computing route}$:
 
