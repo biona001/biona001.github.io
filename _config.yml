@@ -79,11 +79,11 @@ analytics:
 # Site Author
 author:
   name             : "Benjamin Chu"
-  avatar           : "IMG_2038.JPG"
+  avatar           : "google_scholar.png"
   bio              : "biona001 [at] ucla.edu"
   location         : 
   employer         : 
-  googlescholar    : 
+  googlescholar    : "jT7L8egAAAAJ"
   email            : 
   uri              :
   bitbucket        :
@@ -104,11 +104,11 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "benjaminchu15"
   vine             :
   weibo            :
   xing             :
-  youtube          : "biona002"
+  youtube          : 
   wikipedia        :
 
 

@@ -6,7 +6,7 @@ modified: 2020-02-8
 
 ## About me 
 
-I am currently a Ph.D student in the [biomathematics ](http://www.biomath.ucla.edu/) at UCLA, advised by Kenneth Lange and Janet Sinsheimer. My interests broadly include:
+I am currently a Ph.D student studying [biomathematics](https://compmed.ucla.edu/) at UCLA, advised by Kenneth Lange and Janet Sinsheimer. My interests broadly include:
 
 1. Optimization and computing
 1. Statistical and mathematical methods for human genetics
