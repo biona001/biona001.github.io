@@ -25,6 +25,8 @@ Cédric Grauffel, **Benjamin Chu**, Carmay Lim. *Physical Chemistry Chemical Phy
 
 ## Talks
 
-+ A multiple regression approach for GWAS and high dimensional inference. **2020 QCBio, Los Angeles**. ([Slides](https://github.com/biona001/public-talks/blob/master/QCBio%20luncheon%202020/Presentation1.pdf))
++ [OpenMendel Programming Workshop](https://github.com/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022). **2020 Inaugural Lange Symposium, Los Angeles**. ([ipynb](https://github.com/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022/blob/master/05-iht/MendelIHT_tutorial.ipynb))([html](https://openmendel.github.io/LangeSymposium-ProgrammingWorkshop-20202022/05-iht/MendelIHT_tutorial.html))
+
++ A multiple regression approach for GWAS and high dimensional inference. **2020 QCBio Luncheon, Los Angeles**. ([Slides](https://github.com/biona001/public-talks/blob/master/QCBio%20luncheon%202020/Presentation1.pdf))
 
 + MendelIHT.jl: Generalized Linear Models for High Dimensional Genetics (GWAS) Data. **2019 JuliaCon, Baltimore**. ([Video](https://www.youtube.com/watch?v=UPIKafShwFw))([Slides](https://github.com/biona001/public-talks/blob/master/JuliaCon%202019/talk/talk.pdf))
