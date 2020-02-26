@@ -25,7 +25,7 @@ Cédric Grauffel, **Benjamin Chu**, Carmay Lim. *Physical Chemistry Chemical Phy
 
 ## Talks
 
-+ [OpenMendel Programming Workshop](https://github.com/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022). **2020 Inaugural Lange Symposium, Los Angeles**. ([ipynb](https://github.com/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022/blob/master/05-iht/MendelIHT_tutorial.ipynb))([html](https://openmendel.github.io/LangeSymposium-ProgrammingWorkshop-20202022/05-iht/MendelIHT_tutorial.html))
++ [OpenMendel Programming Workshop](https://github.com/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022). **2020 Inaugural Lange Symposium, Los Angeles**. ([ipynb](https://github.com/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022/blob/master/05-iht/MendelIHT_tutorial.ipynb))([html](https://openmendel.github.io/LangeSymposium-ProgrammingWorkshop-20202022/05-iht/MendelIHT_tutorial.html))([binder](https://mybinder.org/v2/gh/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022/master))
 
 + A multiple regression approach for GWAS and high dimensional inference. **2020 QCBio Luncheon, Los Angeles**. ([Slides](https://github.com/biona001/public-talks/blob/master/QCBio%20luncheon%202020/Presentation1.pdf))
 
