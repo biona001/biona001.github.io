@@ -28,9 +28,9 @@ Cédric Grauffel, **Benjamin Chu**, Carmay Lim. *Physical Chemistry Chemical Phy
 
 ## Talks
 
-+ Scalable algorithms for genetic association studies, genotype imputation, andancestry inference. **2021 University of Southern California (online)**, Biostatistics Seminar. ([Slides](https://github.com/biona001/public-talks/blob/master/2021%20USC/usc.pdf))
++ Scalable algorithms for genetic association studies, genotype imputation, and ancestry inference. **2021 University of Southern California (online)**, Biostatistics Seminar. ([Slides](https://github.com/biona001/public-talks/blob/master/2021%20USC/usc.pdf))
 
-+ Scalable algorithms for GWAS, genotype imputation, andancestry inference. **2020 University of Michigan (online)**, Biostatistics Seminar. ([Slides](https://github.com/biona001/public-talks/blob/master/2020%20Michigan/michigan.pdf))
++ Scalable algorithms for GWAS, genotype imputation, and ancestry inference. **2020 University of Michigan (online)**, Biostatistics Seminar. ([Slides](https://github.com/biona001/public-talks/blob/master/2020%20Michigan/michigan.pdf))
 
 + [OpenMendel Programming Workshop](https://github.com/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022). **2020 Inaugural Lange Symposium, Los Angeles**. ([ipynb](https://github.com/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022/blob/master/05-iht/MendelIHT_tutorial.ipynb))([html](https://openmendel.github.io/LangeSymposium-ProgrammingWorkshop-20202022/05-iht/MendelIHT_tutorial.html))([binder](https://mybinder.org/v2/gh/OpenMendel/LangeSymposium-ProgrammingWorkshop-20202022/master))
 
@@ -40,8 +40,8 @@ Cédric Grauffel, **Benjamin Chu**, Carmay Lim. *Physical Chemistry Chemical Phy
 
 ## Teachings / Misc
 
-+ Directional derivatives for matrix calculus. **2021 OpenMendel group meeting**. ([Slides](https://github.com/biona001/public-talks/blob/master/2021%20OpenMendel/directional_derivative.pdf))
++ Directional derivatives for matrix calculus. **2021 UCLA OpenMendel group meeting**. ([Slides](https://github.com/biona001/public-talks/blob/master/2021%20OpenMendel/directional_derivative.pdf))
 
 + Julia multithreading tutorial and gotchas. **2020 UCLA Julia meetup**. ([notebook](https://github.com/biona001/teaching/blob/master/Julia_multithreading_gotchas/multithreading_tutorial.ipynb))
 
-+ Selected topics in random graph theory. **2020 UCLA Biomath 205 preceptorship lectures**. ([Notes](https://github.com/biona001/teaching/blob/master/preceptorship%20-%20biomath%20203%20/random%20graph%20theory/lecture.pdf))([Lecture 2 Videos](https://www.youtube.com/watch?v=zDzhNbPL9Hk))([code](https://github.com/biona001/teaching/blob/master/preceptorship%20-%20biomath%20203%20/random%20graph%20theory/kmeans.ipynb))
++ Selected topics in random graph theory. **2020 UCLA Biomath 203 preceptorship lectures**. ([Notes](https://github.com/biona001/teaching/blob/master/preceptorship%20-%20biomath%20203%20/random%20graph%20theory/lecture.pdf))([Lecture 2 Videos](https://www.youtube.com/watch?v=zDzhNbPL9Hk))([code](https://github.com/biona001/teaching/blob/master/preceptorship%20-%20biomath%20203%20/random%20graph%20theory/kmeans.ipynb))
