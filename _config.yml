@@ -200,12 +200,12 @@ defaults:
       share: true
       related: true
   # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true
   # _research
   - scope:
       path: ""
@@ -234,14 +234,14 @@ defaults:
   #     share: true
   #     comments: true
   # _portfolio
-  # - scope:
-  #     path: ""
-  #     type: portfolio
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comment: true
+  - scope:
+      path: ""
+      type: software
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
   # - scope:
   #     path: ""
