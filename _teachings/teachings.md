@@ -1,6 +1,6 @@
 ---
-permalink: /teaching/
-title: "Teaching"
+permalink: /teachings/
+title: "Teachings"
 modified: 2021-09-11
 ---
 

@@ -11,6 +11,7 @@ Below are softwares I am involved in, that I think are pretty cool.
 Iterative hard thresholding as a multiple regression model for GWAS
 
 [GitHub page](https://github.com/OpenMendel/MendelIHT.jl)
+
 [Documentation](https://openmendel.github.io/MendelIHT.jl/latest/)
 
 + [Multivariate Genomewide Association Analysis with IHT](https://www.biorxiv.org/content/10.1101/2021.08.04.455145v2.abstract)
