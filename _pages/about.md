@@ -12,7 +12,7 @@ Benjamin Chu's Personal website
 ====
 Hi there.
 
-![](https://biona001.github.io/images/IMG_20190524_205402(1).png)
+![](https://biona001.github.io/images/IMG_2331.png.png)
 
 <!-- <p align="center">
   <img src="https://biona001.github.io/images/IMG_2331.png" alt="Photo" style="width: 450px;"/> 
