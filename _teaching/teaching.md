@@ -4,7 +4,7 @@ title: "Teaching"
 modified: 2021-09-11
 ---
 
-## Tutorials, invited-lectures, misc
+## Tutorials, lectures, misc
 
 + [Bruins In Genomics](https://qcb.ucla.edu/big-summer/) Summer Undergraduate Research Program
     - 2021 Mentees: [Daniel Peterson](https://github.com/dannyp3), Chidera Okenwa

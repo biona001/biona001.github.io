@@ -169,11 +169,11 @@ kramdown:
 
 # Collections
 collections:
-  research: 
+  teaching:
     output: true
     permalink: /:collection/:path/
-  teaching:
-    output: false
+  research: 
+    output: true
     permalink: /:collection/:path/
   publications:
     output: true
