@@ -6,16 +6,18 @@ modified: 2020-02-8
 
 ## About me 
 
-I am currently a Ph.D student studying [biomathematics](https://compmed.ucla.edu/) at UCLA, advised by Kenneth Lange and Janet Sinsheimer. My interests broadly include:
+I am a postdoc at Stanford university, working under [Chiara Sabatti](https://statweb.stanford.edu/~sabatti/). I got my PhD in [biomathematics](https://compmed.ucla.edu/) at UCLA, advised by Kenneth Lange and Janet Sinsheimer. Before that, I got a BA in mathematics at UC Berkeley. 
 
-1. Optimization and computing
+My interests broadly include:
+
+1. Optimization and scientific computing
 1. Statistical and mathematical methods for human genetics
 1. System wide biology modeling
 
 ## Publications ([Google scholar](https://scholar.google.com/citations?hl=en&user=jT7L8egAAAAJ))
 
 + [Multivariate Genomewide Association Analysis with IHT](https://www.biorxiv.org/content/10.1101/2021.08.04.455145v2.abstract)
-**Benjamin B. Chu**, Seyoon Ko, Jin J. Zhou, Hua Zhou, Janet S. Sinsheimer, Kenneth Lange. *under review, 2021*
+**Benjamin B. Chu**, Seyoon Ko, Jin J. Zhou, Hua Zhou, Janet S. Sinsheimer, Kenneth Lange. *under review (2021)*
 
 + [A Fast Data-Driven Method for Genotype Imputation, Phasing, and Local Ancestry Inference: MendelImpute.jl](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab489/6325083)  
 **Benjamin B. Chu**, Eric M Sobel, Rory Wasiolek, Janet S. Sinsheimer, Hua Zhou, Kenneth Lange. *Bioinformatics (2021)*
