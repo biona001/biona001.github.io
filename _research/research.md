@@ -29,7 +29,7 @@ View full list at [Google scholar](https://scholar.google.com/citations?hl=en&us
 
 ## Talks
 
-+ Scalable algorithms for genetic association studies, genotype imputation, and ancestry inference. **2021 University of Southern California (online)**, Biostatistics Seminar. ([Slides](https://github.com/biona001/public-talks/blob/master/2021%20USC/usc.pdf))
++ Scalable algorithms for genetic association studies, genotype imputation, and ancestry inference. **2021 University of Southern California (online)**, Biostatistics Seminar. ([Slides](https://github.com/biona001/public-talks/blob/master/2021%20USC/usc.pdf))([Video](https://www.youtube.com/watch?v=AzMYs7d32rc))
 
 + Scalable algorithms for GWAS, genotype imputation, and ancestry inference. **2020 University of Michigan (online)**, Biostatistics Seminar. ([Slides](https://github.com/biona001/public-talks/blob/master/2020%20Michigan/michigan.pdf))
 
