@@ -104,7 +104,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "benjaminchu15"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -221,7 +221,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teachings
+      type: teaching
     values:
       layout: single
       author_profile: true

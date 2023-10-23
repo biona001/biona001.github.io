@@ -3,11 +3,11 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Softwares"
+  - title: "Software"
     url: /software/
 
-  - title: "Teachings"
-    url: /teachings/
+  - title: "Teaching"
+    url: /teaching/
 
   - title: "Blog Posts"
     url: /year-archive/
