@@ -4,26 +4,20 @@ title: "Research"
 modified: 2021-09-11
 ---
 
-## About me 
-
-I am a postdoc at Stanford university, working under [Chiara Sabatti](https://statweb.stanford.edu/~sabatti/). I got my PhD in [biomathematics](https://compmed.ucla.edu/) at UCLA, advised by Kenneth Lange and Janet Sinsheimer. Before that, I got a BA in mathematics at UC Berkeley. 
-
-My interests broadly include:
-
-1. Optimization and scientific computing
-1. Statistical and mathematical methods for human genetics
-1. Programming in Julia
-
 ## Selected Publications
 
 View full list at [Google scholar](https://scholar.google.com/citations?hl=en&user=jT7L8egAAAAJ)
 
 \* denotes equal contribution
 
-+ [Optimized Replacement T4 and T4+ T3 Dosing in Male and Female Hypothyroid Patients With Different BMIs Using a Personalized Mechanistic Model of Thyroid Hormone Regulation Dynamics](https://www.frontiersin.org/articles/10.3389/fendo.2022.888429/full), Mauricio Cruz-Loya*, **Benjamin B. Chu**\*, Jacqueline Jonklaas, David F. Schneider, Joe DiStefano III. *Frontiers in Endocrinology (2022)*
++ [Second-order group knockoffs with applications to GWAS](https://arxiv.org/abs/2310.15069)
+**Benjamin B. Chu**, Jiaqi Gu, Zhaomeng Chen, Tim Morrison,
+Emmanuel Candes, Zihuai He, Chiara Sabatti. *arXiv preprint (2023)*
 
-+ [Multivariate Genomewide Association Analysis with IHT](https://www.biorxiv.org/content/10.1101/2021.08.04.455145v3)
-**Benjamin B. Chu**, Seyoon Ko, Jin J. Zhou, Hua Zhou, Janet S. Sinsheimer, Kenneth Lange. *under review (2022)*
++ [Multivariate Genome-wide Association Analysis with IHT](https://academic.oup.com/bioinformatics/article/39/4/btad193/7126408)
+**Benjamin B. Chu**, Seyoon Ko, Jin J. Zhou, Hua Zhou, Janet S. Sinsheimer, Kenneth Lange. *Bioinformatics (2023)*
+
++ [Optimized Replacement T4 and T4+ T3 Dosing in Male and Female Hypothyroid Patients With Different BMIs Using a Personalized Mechanistic Model of Thyroid Hormone Regulation Dynamics](https://www.frontiersin.org/articles/10.3389/fendo.2022.888429/full), Mauricio Cruz-Loya\*, **Benjamin B. Chu**\*, Jacqueline Jonklaas, David F. Schneider, Joe DiStefano III. *Frontiers in Endocrinology (2022)*
 
 + [A Fast Data-Driven Method for Genotype Imputation, Phasing, and Local Ancestry Inference: MendelImpute.jl](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab489/6325083)  
 **Benjamin B. Chu**, Eric M Sobel, Rory Wasiolek, Janet S. Sinsheimer, Hua Zhou, Kenneth Lange. *Bioinformatics (2021)*

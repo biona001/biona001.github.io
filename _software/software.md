@@ -4,7 +4,20 @@ title: "Softwares"
 modified: 2021-09-11
 ---
 
-Below are softwares I am involved in, that I think are pretty cool.
+Below is a (non-exhausive) list of softwares I am involved in, that I think are pretty cool. See my [github page](https://github.com/biona001) for more. 
+
+
+## Knockoffs.jl
+
+Julia implementation of the Knockoff filter
+
+[GitHub page](https://github.com/biona001/Knockoffs.jl)
+[python wrapper](https://github.com/biona001/knockoffspy)
+[R wrapper](https://github.com/biona001/knockoffsr)
+
++ [Second-order group knockoffs with applications to GWAS](https://arxiv.org/abs/2310.15069)
+Benjamin B. Chu, Jiaqi Gu, Zhaomeng Chen, Tim Morrison,
+Emmanuel Candes, Zihuai He, Chiara Sabatti
 
 ## MendelIHT.jl
 
@@ -14,8 +27,8 @@ Iterative hard thresholding as a multiple regression model for GWAS
 
 [Documentation](https://openmendel.github.io/MendelIHT.jl/latest/)
 
-+ [Multivariate Genomewide Association Analysis with IHT](https://www.biorxiv.org/content/10.1101/2021.08.04.455145v2.abstract)
-Benjamin B. Chu, Seyoon Ko, Jin J. Zhou, Hua Zhou, Janet S. Sinsheimer, Kenneth Lange. *under review (2021)*
++ [Multivariate Genome-wide Association Analysis with IHT](https://academic.oup.com/bioinformatics/article/39/4/btad193/7126408)
+Benjamin B. Chu, Seyoon Ko, Jin J. Zhou, Hua Zhou, Janet S. Sinsheimer, Kenneth Lange. Bioinformatics (2023)*
 
 + [Iterative Hard Thresholding in genome-wide association studies: Generalized Linear Models, Prior Weights, and Double Sparsity](https://academic.oup.com/gigascience/article-abstract/9/6/giaa044/5850823)  
 Benjamin B. Chu, Kevin L. Keys, Christopher A. German, Hua Zhou, Jin J. Zhou,  Janet S. Sinsheimer, Kenneth Lange. *GigaScience (2020)*
@@ -60,9 +73,3 @@ Julia utilities for computing theoretical/empirical kinship and other identity c
 Mechanistic model for thyroid hormone regulation
 
 [GitHub page](https://github.com/biona001/Thyrosim.jl)
-
-## Knockoffs.jl
-
-Julia implementation of the Knockoff filter
-
-[GitHub page](https://github.com/biona001/Knockoffs.jl)
