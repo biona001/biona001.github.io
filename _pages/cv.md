@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-+ Here is a copy to my **[CV](http://biona001.github.io/files/cv_chu.pdf)** (updated 10/31/2022)
++ Here is a copy to my **[CV](http://biona001.github.io/files/cv_chu.pdf)** (updated 10/23/2023)
