@@ -11,8 +11,8 @@ Below is a (non-exhausive) list of softwares I am involved in, that I think are 
 
 Julia implementation of the Knockoff filter
 
-[GitHub page](https://github.com/biona001/Knockoffs.jl)
-[python wrapper](https://github.com/biona001/knockoffspy)
+[GitHub page](https://github.com/biona001/Knockoffs.jl), 
+[python wrapper](https://github.com/biona001/knockoffspy), 
 [R wrapper](https://github.com/biona001/knockoffsr)
 
 + [Second-order group knockoffs with applications to GWAS](https://arxiv.org/abs/2310.15069)
