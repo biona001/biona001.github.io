@@ -6,6 +6,17 @@ modified: 2021-09-11
 
 Below is a (non-exhausive) list of softwares I am involved in, that I think are pretty cool. See my [github page](https://github.com/biona001) for more. 
 
+## GhostKnockoffGWAS
+
+Analyzing GWAS summary statistics data under the knockoff framework. 
+
+[GitHub page](https://github.com/biona001/Knockoffs.jl)
+
+[Documentation](https://openmendel.github.io/MendelIHT.jl/latest/)
+
++ [In silico identification of putative causal genetic variants
+](https://www.biorxiv.org/content/10.1101/2024.02.28.582621v1.abstract)
+Zihuai He\*, **Benjamin B. Chu**\*, James Yang\*, Jiaqi Gu\*, Zhaomeng Chen, Linxi Liu, Tim Morrison, Michael Belloy, Xinran Qi, Nima Hejazi, Maya Mathur, Yann Le Guen, Hua Tang, Trevor Hastie, Iuliana Ionita-Iaza, Chiara Sabatti, Emmanuel Candes. *bioRxiv preprint (2024)*
 
 ## Knockoffs.jl
 
@@ -73,3 +84,6 @@ Julia utilities for computing theoretical/empirical kinship and other identity c
 Mechanistic model for thyroid hormone regulation
 
 [GitHub page](https://github.com/biona001/Thyrosim.jl)
+
++ [Optimized Replacement T4 and T4+ T3 Dosing in Male and Female Hypothyroid Patients With Different BMIs Using a Personalized Mechanistic Model of Thyroid Hormone Regulation Dynamics](https://www.frontiersin.org/articles/10.3389/fendo.2022.888429/full)
+Mauricio Cruz-Loya\*, **Benjamin B. Chu**\*, Jacqueline Jonklaas, David F. Schneider, Joe DiStefano III. *Frontiers in Endocrinology (2022)*
