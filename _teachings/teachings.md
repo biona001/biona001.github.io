@@ -1,7 +1,7 @@
 ---
 permalink: /teachings/
 title: "Teachings"
-modified: 2021-09-11
+# modified: 2021-09-11
 ---
 
 ## Tutorials, lectures, misc

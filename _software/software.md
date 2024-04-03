@@ -1,7 +1,7 @@
 ---
 permalink: /software/
 title: "Softwares"
-modified: 2021-09-11
+# modified: 2021-09-11
 ---
 
 Below is a (non-exhausive) list of softwares I am involved in, that I think are pretty cool. See my [github page](https://github.com/biona001) for more. 
