@@ -14,8 +14,7 @@ Analyzing GWAS summary statistics data under the knockoff framework.
 
 [Documentation](https://openmendel.github.io/MendelIHT.jl/latest/)
 
-+ [In silico identification of putative causal genetic variants
-](https://www.biorxiv.org/content/10.1101/2024.02.28.582621v1.abstract)
++ [Beyond guilty by association at scale: searching for causal variants on the basis of genome-wide summary statistics](https://www.biorxiv.org/content/10.1101/2024.02.28.582621v2)
 Zihuai He\*, **Benjamin B. Chu**\*, James Yang\*, Jiaqi Gu\*, Zhaomeng Chen, Linxi Liu, Tim Morrison, Michael Belloy, Xinran Qi, Nima Hejazi, Maya Mathur, Yann Le Guen, Hua Tang, Trevor Hastie, Iuliana Ionita-Iaza, Chiara Sabatti, Emmanuel Candes. *bioRxiv preprint (2024)*
 
 ## Knockoffs.jl
