@@ -18,9 +18,9 @@ I am a postdoc at Stanford university, working under [Chiara Sabatti](https://st
 
 My interests broadly include:
 
-1. Optimization and scientific computing
-2. Statistical and mathematical methods for human genetics
-3. Programming in Julia
+1. Statistical and mathematical methods for human genetics/genomics
+2. Optimization and scientific computing
+3. Writing efficient and user-friendly software packages
 
 <p align="center">
   <img src="https://biona001.github.io/images/IMG_6567.jpg" alt="Photo" style="width: 350px;"/> 
