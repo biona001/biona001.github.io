@@ -22,10 +22,8 @@ My interests broadly include:
 2. Statistical and mathematical methods for human genetics
 3. Programming in Julia
 
-<!-- ![](https://biona001.github.io/images/IMG_2331.jpg) -->
-
 <p align="center">
-  <img src="https://biona001.github.io/images/IMG_2331.jpg" alt="Photo" style="width: 350px;"/> 
+  <img src="https://biona001.github.io/images/IMG_6567.jpg" alt="Photo" style="width: 350px;"/> 
 </p> 
 
 
