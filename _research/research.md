@@ -10,7 +10,7 @@ View full list at [Google scholar](https://scholar.google.com/citations?hl=en&us
 
 \* denotes equal contribution
 
-+ [It's a wrap: deriving distinct discoveries with FDR control after a GWAS pipeline](https://www.biorxiv.org/content/10.1101/2025.06.05.658138v1.abstract)
++ [It's a wrap: deriving distinct discoveries with FDR control after a GWAS pipeline](https://www.biorxiv.org/content/10.1101/2025.06.05.658138v1.abstract)  
 **Benjamin B. Chu**, Zihuai He, Chiara Sabatti. *bioRxiv preprint (2025)*
 
 + [A blended genome and exome sequencing method captures genetic variation in an unbiased, high-quality, and cost-effective manner](https://www.biorxiv.org/content/10.1101/2024.09.06.611689v1.abstract)  
