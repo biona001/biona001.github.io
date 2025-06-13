@@ -10,14 +10,17 @@ View full list at [Google scholar](https://scholar.google.com/citations?hl=en&us
 
 \* denotes equal contribution
 
++ [It's a wrap: deriving distinct discoveries with FDR control after a GWAS pipeline](https://www.biorxiv.org/content/10.1101/2025.06.05.658138v1.abstract)
+**Benjamin B. Chu**, Zihuai He, Chiara Sabatti. *bioRxiv preprint (2025)*
+
 + [A blended genome and exome sequencing method captures genetic variation in an unbiased, high-quality, and cost-effective manner](https://www.biorxiv.org/content/10.1101/2024.09.06.611689v1.abstract)  
 Toni A Boltz\*, **Benjamin B. Chu**\*, Calwing Liao\*, Julia M Sealock\*, ..., Benjamin M Neale, Daniel P Howrigan, Alicia R Martin. *bioRxiv preprint (2024)*
 
 + [Beyond guilty by association at scale: searching for causal variants on the basis of genome-wide summary statistics](https://www.biorxiv.org/content/10.1101/2024.02.28.582621v2)  
 Zihuai He\*, **Benjamin B. Chu**\*, James Yang\*, Jiaqi Gu\*, Zhaomeng Chen, Linxi Liu, Tim Morrison, Michael Belloy, Xinran Qi, Nima Hejazi, Maya Mathur, Yann Le Guen, Hua Tang, Trevor Hastie, Iuliana Ionita-Iaza, Chiara Sabatti, Emmanuel Candes. *bioRxiv preprint (2024)*
 
-+ [Second-order group knockoffs with applications to GWAS](https://arxiv.org/abs/2310.15069)  
-**Benjamin B. Chu**, Jiaqi Gu, Zhaomeng Chen, Tim Morrison, Emmanuel Candes, Zihuai He, Chiara Sabatti. *accepted at Bioinformatics (2024)*
++ [Second-order group knockoffs with applications to GWAS](https://academic.oup.com/bioinformatics/article/40/10/btae580/7789468)  
+**Benjamin B. Chu**, Jiaqi Gu, Zhaomeng Chen, Tim Morrison, Emmanuel Candes, Zihuai He, Chiara Sabatti. *Bioinformatics (2024)*
 
 + [Multivariate Genome-wide Association Analysis with IHT](https://academic.oup.com/bioinformatics/article/39/4/btad193/7126408)  
 **Benjamin B. Chu**, Seyoon Ko, Jin J. Zhou, Hua Zhou, Janet S. Sinsheimer, Kenneth Lange. *Bioinformatics (2023)*
