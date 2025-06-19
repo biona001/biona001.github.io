@@ -14,7 +14,7 @@ View full list at [Google scholar](https://scholar.google.com/citations?hl=en&us
 **Benjamin B. Chu**, Zihuai He, Chiara Sabatti. *bioRxiv preprint (2025)*
 
 + [A blended genome and exome sequencing method captures genetic variation in an unbiased, high-quality, and cost-effective manner](https://www.biorxiv.org/content/10.1101/2024.09.06.611689v1.abstract)  
-Toni A Boltz\*, **Benjamin B. Chu**\*, Calwing Liao\*, Julia M Sealock\*, ..., Benjamin M Neale, Daniel P Howrigan, Alicia R Martin. *bioRxiv preprint (2024)*
+Toni A Boltz\*, **Benjamin B. Chu**\*, Calwing Liao\*, Julia M Sealock\*, ... <100+ authors omitted>..., Benjamin M Neale, Daniel P Howrigan, Alicia R Martin. *bioRxiv preprint (2024)*
 
 + [Beyond guilty by association at scale: searching for causal variants on the basis of genome-wide summary statistics](https://www.biorxiv.org/content/10.1101/2024.02.28.582621v2)  
 Zihuai He\*, **Benjamin B. Chu**\*, James Yang\*, Jiaqi Gu\*, Zhaomeng Chen, Linxi Liu, Tim Morrison, Michael Belloy, Xinran Qi, Nima Hejazi, Maya Mathur, Yann Le Guen, Hua Tang, Trevor Hastie, Iuliana Ionita-Iaza, Chiara Sabatti, Emmanuel Candes. *bioRxiv preprint (2024)*
