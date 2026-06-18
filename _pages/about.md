@@ -23,7 +23,9 @@ My research interests broadly include:
 3. Writing efficient and user-friendly software packages
 
 <p align="center">
-  <img src="https://biona001.github.io/images/IMG_6567.jpg" alt="Photo" style="width: 350px;"/> 
+  <img src="/images/IMG_6539_chatgpt.png" alt="Photo of Benjamin Chu" style="width: 350px;"/> 
+  <br>
+  (image credit: chatGPT)
 </p> 
 
 
