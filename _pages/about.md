@@ -14,7 +14,7 @@ Benjamin Chu's Personal website
 
 ## About me 
 
-I am a principal scientist at Genentech. Previously, I did a postdoc at Stanford university, working under [Chiara Sabatti](https://statweb.stanford.edu/~sabatti/). Before that, I got my PhD in [biomathematics](https://compmed.ucla.edu/) at UCLA, advised by Kenneth Lange and Janet Sinsheimer. Even before that, I got a BA in mathematics at UC Berkeley. 
+I am a principal scientist at Genentech. Previously, I did a postdoc at Stanford university, working under [Chiara Sabatti](https://statweb.stanford.edu/~sabatti/). Before that, I got my PhD in [biomathematics](https://compmed.ucla.edu/) at UCLA, advised by Kenneth Lange and Janet Sinsheimer.
 
 My research interests broadly include:
 
