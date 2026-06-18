@@ -7,5 +7,6 @@ var visitedPlaces = [
   ["ASHG 2022, Los Angeles, CA", 34.0543942, -118.2439408],
   ["ASHG 2023, Washington DC", 38.9072, -77.0369],
   ["PQG Conference 2024, Boston, MA", 42.3601, -71.0589],
-  ["NHGRI Meeting 2019, St. Louis, MO", 38.6270, -90.1994]
+  ["NHGRI Meeting 2019, St. Louis, MO", 38.6270, -90.1994],
+  ["scverse 2025, Stanford, CA", 37.4275, -122.1697]
 ];
